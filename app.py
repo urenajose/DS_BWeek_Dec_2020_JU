@@ -6,7 +6,7 @@ import pandas as pd
 import pickle
 from models import DB, Tracks
 from sqlalchemy import create_engine
-
+from sklearn.neighbors import NearestNeighbors
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///reco_tracks.db'

@@ -1,0 +1,1 @@
+web: gunicorn app.py -w 4 -t 60
