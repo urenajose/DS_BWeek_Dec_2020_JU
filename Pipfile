@@ -8,7 +8,6 @@ ipykernel = "*"
 pandas = "*"
 numpy = "*"
 flask = "*"
-sklearn = "*"
 fuzzywuzzy = "*"
 flask-sqlalchemy = "*"
 
