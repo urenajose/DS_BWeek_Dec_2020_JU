@@ -1,3 +1,9 @@
 {
-    "python.pythonPath": "C:\\Users\\cybrt\\anaconda3\\envs\\py37\\python.exe"
+    "python.pythonPath": "/home/urenajose/.local/share/virtualenvs/DS_BWeek_Dec_2020_JU-Vllh5O5o/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "cSpell.words": [
+        "ssong"
+    ]
 }

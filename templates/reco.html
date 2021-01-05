@@ -1,0 +1,25 @@
+    <!DOCTYPE html>
+    <!-- this file should be save in a folder call templates,
+    template folder should be save root directory of the app -->
+    <html>
+    <head>
+        <title>
+        Tracks RECO
+        </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    </head>
+
+    <body>
+        <h1>Tracks you going to &#128151:</h1>
+        <div class="menu">
+            <a href="/refresh" class="button error">Refresh Database</a>
+        </div>
+        <ol>
+            {% for track in tracks %}
+            <br>
+            <li>Track Name: {{ track.name }} by artist(s) {{track.artists}}</li>
+            {% endfor %}
+            <br>
+        </ol>
+    </body>
+    </html>
