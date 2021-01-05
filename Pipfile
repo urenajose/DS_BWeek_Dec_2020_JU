@@ -10,6 +10,7 @@ numpy = "*"
 flask = "*"
 fuzzywuzzy = "*"
 flask-sqlalchemy = "*"
+gunicorn = "*"
 
 [dev-packages]
 flake8 = "*"
