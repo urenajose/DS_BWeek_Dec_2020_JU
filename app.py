@@ -36,7 +36,7 @@ def song_recomender():
         print('searching for recomendation....')
         # extracting the index numbers (rows) from the model
         distances, ids = model_knn.kneighbors(spotify_matrix[[id_track]], 
-                                              n_neighbors=20)
+                                              n_neighbors=3)
         # extracting the list of the matrix, and creating a list of list.
         spotify_ids = list(ids[0])
         # creating a df with index return and desire columns
