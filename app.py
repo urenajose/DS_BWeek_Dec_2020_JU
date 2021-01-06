@@ -22,7 +22,7 @@ model_knn = pickle.load(open(filename, 'rb'))
 # pickle spotify model NearestNeighbors
 
 @app.route("/hello")
-    def hello():
+def hello():
         return "hello world"
 
 @app.route("/", methods=["GET","POST"])
