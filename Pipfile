@@ -8,9 +8,10 @@ ipykernel = "*"
 pandas = "*"
 numpy = "*"
 flask = "*"
-fuzzywuzzy = "*"
+fuzzywuzzy = {extras = ["speedup"], version = "*"}
 flask-sqlalchemy = "*"
 gunicorn = "*"
+sqlalchemy = "*"
 
 [dev-packages]
 flake8 = "*"

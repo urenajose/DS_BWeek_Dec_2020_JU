@@ -41,9 +41,7 @@ def song_recomender():
         spotify_ids = list(ids[0])
         # creating a df with index return and desire columns
         recomendation = spotify[['artists', 'name', 'id']].loc[spotify_ids]
-        engine = create_engine(app.config['SQLALCHEMY_DATABASE_URI'], echo=False)
-        recomendation
-        recomendation.to_sql('tracks', con=engine, if_exists="replace", index=False)
+        recomendation.to_sql('tracks', con=DB.engine, if_exists="replace", index=False)
         return redirect("/TracksReco")
     else:
         return render_template('form.html')
