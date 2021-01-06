@@ -1,7 +1,7 @@
-import flask
-import flask_sqlalchemy
-import fuzzywuzzy
-import pandas
-import pickle
-import sqlalchemy
-import gunicorn
+flask
+flask-sqlalchemy
+fuzzywuzzy
+pandas
+pickle
+sqlalchemy
+gunicorn
